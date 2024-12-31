@@ -54,4 +54,3 @@ if __name__ == '__main__':
     animal_data = load_data('animals_data.json')  # Renamed to avoid shadowing
     animals_html_content = generate_animal_html(animal_data)  # Renamed to avoid shadowing
     create_html_file('animals_template.html', 'animals.html', animals_html_content)
-
